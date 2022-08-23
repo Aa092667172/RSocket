@@ -5,7 +5,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>microboot-rscoket-common</module>
-        <module>microboot-rscoket-web</module>
         <module>microboot-rscoket-server</module>
         <module>microboot-rscoket-client</module>
     </modules>

@@ -22,7 +22,7 @@ public class MessageAction {
                 //響應處理
                 .doOnNext(msg ->this.messageService.echo(msg))
                 //日誌處理
-                .doOnNext(msg -> log.info("[消息接收]{}",messageMono));
+                .doOnNext(msg -> log.info("[消息接收]{}",msg));
     }
     @MessageMapping("message.delete")
     public void deleteMessage(Mono<String> title){
